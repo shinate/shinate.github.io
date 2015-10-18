@@ -1,2 +1,1 @@
-# shinate.github.io
-My Blog
+# codante.org
