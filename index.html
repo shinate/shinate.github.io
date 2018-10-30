@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <title>codante</title>
     <style>
         html, body {
@@ -12,12 +14,33 @@
 
         body {
             overflow: hidden;
-            background: transparent url("source/images/AKD.svg") no-repeat fixed 50% 50%;
-            background-size: 8vmin;
+            background: transparent url("source/images/AKD-H.svg") no-repeat fixed 100% 50%;
+        }
+
+        a {
+            font: 2rem/1.4 fantasy;
+            text-decoration: none;
+            padding: .5rem 1rem;
+            margin: .5rem 0 0;
+            display: inline-block;
+            color: #CCCCCC;
+            -webkit-transition: color 1s;
+            -moz-transition: color 1s;
+            -ms-transition: color 1s;
+            -o-transition: color 1s;
+            transition: color 1s;
+        }
+
+        a:hover {
+            color: #333333;
         }
     </style>
 </head>
 <body>
-<a href="blog">blog</a>
+<div style="padding-top:10%;">
+    <a href="blog">Blog</a>
+    <br>
+    <a href="labor">Library</a>
+</div>
 </body>
 </html>
