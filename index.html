@@ -14,7 +14,6 @@
 
         body {
             overflow: hidden;
-            background: transparent url("source/images/AKD-STAR-F.svg") no-repeat fixed 100% 80%;
             -webkit-background-size: auto 80%;
             background-size: auto 80%;
         }
@@ -36,6 +35,14 @@
         a:hover {
             color: #333333;
         }
+
+        .logo {
+            position: absolute;
+            top: 20%;
+            right: 10%;
+            height: 80vh;
+            fill: rgba(0, 0, 0, .05)
+        }
     </style>
 </head>
 <body>
@@ -44,5 +51,8 @@
     <br>
     <a href="labor">Library</a>
 </div>
+<svg class="logo">
+    <use xlink:href="source/images/AKD-STAR-F.svg#logo"></use>
+</svg>
 </body>
 </html>
